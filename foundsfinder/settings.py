@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-lgud7_v)^dm@k^3fj&1@%dfzu=*@c@509-+s^_^1j-=bjl%dc1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["3.129.44.252"]
 
 
 # Application definition
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'foundsfinder',
     'api',
+    'users',
 ]
 
 MIDDLEWARE = [
